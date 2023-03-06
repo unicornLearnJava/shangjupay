@@ -1,0 +1,4 @@
+[${project.name}][${env:SERVER_PORT}] 2022-07-18 07:34:52,068 INFO [Thread-32][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[${project.name}][${env:SERVER_PORT}] 2022-07-18 07:34:52,074 INFO [Thread-32][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[${project.name}][${env:SERVER_PORT}] 2022-07-18 07:34:52,074 INFO [Thread-32][NacosServiceRegistry.java:93] - De-registration finished.
+[${project.name}][${env:SERVER_PORT}] 2022-07-18 07:34:52,074 INFO [Thread-32][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'

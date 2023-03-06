@@ -1,0 +1,75 @@
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,027 INFO [NettyServerWorker-3-6][NettyServerHandler.java:118] -  [DUBBO] IdleStateEvent triggered, close channel NettyChannel [channel=[id: 0xded9b514, L:/192.168.31.236:20891 - R:/192.168.31.236:57558]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,028 INFO [NettyServerWorker-3-6][NettyChannel.java:172] -  [DUBBO] Close netty channel [id: 0xded9b514, L:/192.168.31.236:20891 - R:/192.168.31.236:57558], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,028 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ServerHttpAgent.java:151] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://127.0.0.1:8848， err : Read timed out
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,029 WARN [NettyServerWorker-3-6][AbstractServer.java:213] -  [DUBBO] All clients has disconnected from /192.168.31.236:20891. You can graceful shutdown now., dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,029 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ServerHttpAgent.java:169] - no available server, currentServerAddr : http://127.0.0.1:8848
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,029 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ClientWorker.java:389] - [fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://127.0.0.1:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,033 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ClientWorker.java:550] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://127.0.0.1:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,036 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ServerHttpAgent.java:151] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://127.0.0.1:8848， err : Read timed out
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,037 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ServerHttpAgent.java:169] - no available server, currentServerAddr : http://127.0.0.1:8848
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,038 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ClientWorker.java:389] - [fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://127.0.0.1:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,039 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-23d3330e-afb6-4aa6-8616-188c354fced4][ClientWorker.java:550] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://127.0.0.1:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,719 INFO [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:48] -  [DUBBO] Initial connection to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.31.236:0 -> /192.168.31.236:20890]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,738 INFO [dubbo-client-idleCheck-thread-1][NettyClient.java:142] -  [DUBBO] Close old netty channel [id: 0x39b93fbd, L:/192.168.31.236:57769 ! R:/192.168.31.236:20890] on create new netty channel [id: 0xa0857f51, L:/192.168.31.236:60424 - R:/192.168.31.236:20890], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,739 INFO [dubbo-client-idleCheck-thread-1][AbstractClient.java:199] -  [DUBBO] Succeed connect to server /192.168.31.236:20890 from NettyClient 192.168.31.236 using dubbo version 2.7.3, channel is NettyChannel [channel=[id: 0xa0857f51, L:/192.168.31.236:60424 - R:/192.168.31.236:20890]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,739 INFO [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:48] -  [DUBBO] Initial connection to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.31.236:0 -> /192.168.159.1:20890]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,742 INFO [dubbo-client-idleCheck-thread-1][NettyClient.java:142] -  [DUBBO] Close old netty channel [id: 0x2465dca7, L:/192.168.159.1:57770 ! R:/192.168.159.1:20890] on create new netty channel [id: 0xabde2f74, L:/192.168.159.1:60425 - R:/192.168.159.1:20890], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,742 INFO [dubbo-client-idleCheck-thread-1][AbstractClient.java:199] -  [DUBBO] Succeed connect to server /192.168.159.1:20890 from NettyClient 192.168.31.236 using dubbo version 2.7.3, channel is NettyChannel [channel=[id: 0xabde2f74, L:/192.168.159.1:60425 - R:/192.168.159.1:20890]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,782 INFO [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:48] -  [DUBBO] Initial connection to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.31.236:0 -> /192.168.31.236:20891]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,786 INFO [dubbo-client-idleCheck-thread-1][NettyClient.java:142] -  [DUBBO] Close old netty channel [id: 0x075df4e6, L:/192.168.31.236:57558 ! R:/192.168.31.236:20891] on create new netty channel [id: 0x9631e2bf, L:/192.168.31.236:60426 - R:/192.168.31.236:20891], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:17,786 INFO [dubbo-client-idleCheck-thread-1][AbstractClient.java:199] -  [DUBBO] Succeed connect to server /192.168.31.236:20891 from NettyClient 192.168.31.236 using dubbo version 2.7.3, channel is NettyChannel [channel=[id: 0x9631e2bf, L:/192.168.31.236:60426 - R:/192.168.31.236:20891]], dubbo version: 2.7.3, current host: 192.168.31.236
+[${project.name}][${env:SERVER_PORT}] 2022-07-09 17:44:21,414 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services

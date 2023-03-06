@@ -1,0 +1,792 @@
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:15,806 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,336 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,967 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:30,968 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:35,222 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:36,113 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:37,680 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:38,459 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:42,017 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:43,473 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:43,473 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:45,807 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:48,548 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:48,549 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:51,415 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,844 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,845 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,845 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,845 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = -1
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,846 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,939 INFO [http-nio-57010-exec-8][SMSServiceImpl.java:59] - 请求验证码服务，得到响应:{"body":{"code":0,"msg":"正常","result":{"key":"sms:214514283c0d4e6fb3bf38910c1db1ca"}},"headers":{"Content-Type":["application/json;charset=UTF-8"],"Date":["Tue, 19 Jul 2022 06:00:57 GMT"],"Transfer-Encoding":["chunked"]},"statusCode":"OK","statusCodeValue":200}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:00:57,939 INFO [http-nio-57010-exec-8][SMSServiceImpl.java:71] - 得到发送验证码对应的key:sms:214514283c0d4e6fb3bf38910c1db1ca
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,001 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,002 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,002 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,003 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,003 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,003 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:01,003 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 151
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 151
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,883 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,918 INFO [http-nio-57010-exec-9][SMSServiceImpl.java:87] - 请求验证码服务，得到响应:{"body":{"code":0,"msg":"正常","result":true},"headers":{"Date":["Tue, 19 Jul 2022 06:01:03 GMT"],"Content-Type":["application/json;charset=UTF-8"],"Transfer-Encoding":["chunked"]},"statusCode":"OK","statusCodeValue":200}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:03,935 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:506] - 判断手机号在账号中是否存在
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,016 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:382] - 创建账号：{"mobile":"17728718188","password":"123456","username":"yyyy"}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,016 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:506] - 判断手机号在账号中是否存在
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,016 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:352] - 将创建的账号绑定至某租户
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,016 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:451] - 绑定账号和租户的关系
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,032 INFO [DubboServerHandler-192.168.43.213:20880-thread-4][TenantServiceImpl.java:122] - 初始化套餐
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,231 INFO [DubboServerHandler-192.168.43.213:20890-thread-16][MerchantServiceImpl.java:182] - 商户下新增门店{"merchantId":1549273093359120386,"storeName":"根门店"}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:04,247 INFO [DubboServerHandler-192.168.43.213:20890-thread-16][MerchantServiceImpl.java:136] - 门店信息：{}{"id":1549273093426229249,"merchantId":1549273093359120386,"storeName":"根门店"}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:05,230 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:07,693 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:08,469 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:12,032 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:15,816 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,102 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,102 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,102 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,102 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:232] - Content-Length header = 171
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,102 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 171
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,124 DEBUG [http-nio-56010-exec-3][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,125 DEBUG [http-nio-56010-exec-3][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,125 DEBUG [http-nio-56010-exec-3][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,125 DEBUG [http-nio-56010-exec-3][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,126 INFO [http-nio-56010-exec-3][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,127 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:338] - LoadBalancer [uaa-service]:  pingIntervalSeconds set to 30
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,128 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:356] - LoadBalancer [uaa-service]: maxTotalPingTime set to 2
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,129 INFO [http-nio-56010-exec-3][BaseLoadBalancer.java:197] - Client: uaa-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,130 INFO [http-nio-56010-exec-3][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,134 DEBUG [http-nio-56010-exec-3][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,135 DEBUG [http-nio-56010-exec-3][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,135 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,135 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,135 DEBUG [http-nio-56010-exec-3][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,136 INFO [http-nio-56010-exec-3][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,136 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:147] - LoadBalancer [uaa-service_unknown]:  initialized
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,137 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,137 DEBUG [http-nio-56010-exec-3][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,138 INFO [http-nio-56010-exec-3][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client uaa-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[192.168.159.1:56020],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.159.1:56020;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@1777d301
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,143 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.enabled to use NEXT property: hystrix.command.default.circuitBreaker.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,143 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.requestVolumeThreshold to use NEXT property: hystrix.command.default.circuitBreaker.requestVolumeThreshold = 20
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,143 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.sleepWindowInMilliseconds to use NEXT property: hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds = 5000
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.errorThresholdPercentage to use NEXT property: hystrix.command.default.circuitBreaker.errorThresholdPercentage = 50
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.forceOpen to use NEXT property: hystrix.command.default.circuitBreaker.forceOpen = false
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.forceClosed to use NEXT property: hystrix.command.default.circuitBreaker.forceClosed = false
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.strategy to use its current value: SEMAPHORE
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.timeoutInMilliseconds to use its current value: 93000
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.timeout.enabled to use NEXT property: hystrix.command.default.execution.timeout.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.interruptOnTimeout to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnTimeout = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.interruptOnFutureCancel to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnFutureCancel = false
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,144 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.semaphore.maxConcurrentRequests to use its current value: 100
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.fallback.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.fallback.isolation.semaphore.maxConcurrentRequests = 10
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.fallback.enabled to use NEXT property: hystrix.command.default.fallback.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingStats.timeInMilliseconds = 10000
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingStats.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingStats.numBuckets = 10
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.enabled to use NEXT property: hystrix.command.default.metrics.rollingPercentile.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingPercentile.timeInMilliseconds = 60000
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,145 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingPercentile.numBuckets = 6
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,146 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.bucketSize to use NEXT property: hystrix.command.default.metrics.rollingPercentile.bucketSize = 100
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,146 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.healthSnapshot.intervalInMilliseconds to use NEXT property: hystrix.command.default.metrics.healthSnapshot.intervalInMilliseconds = 500
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,146 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.requestCache.enabled to use NEXT property: hystrix.command.default.requestCache.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,146 DEBUG [http-nio-56010-exec-3][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.requestLog.enabled to use NEXT property: hystrix.command.default.requestLog.enabled = true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,149 DEBUG [http-nio-56010-exec-3][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,207 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,230 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} created. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50001} query executed. 2.2788 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50001} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50001} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50001} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50001} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][PreparedStatementPool.java:129] - {conn-10005, pstmt-20001} enter cache
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,232 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,265 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,265 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,265 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50002} query executed. 0.9459 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50002} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50002} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50002} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50002} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50003} query executed. 0.6318 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50003} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50003} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50003} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50003} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50004} query executed. 0.7315 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50004} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50004} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50004} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50004} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,275 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,323 DEBUG [DubboClientHandler-192.168.43.213:20880-thread-2][DecodeHandler.java:59] -  [DUBBO] Decode decodeable message org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,340 INFO [http-nio-56020-exec-1][IntegrationUserDetailsAuthenticationHandler.java:54] - loginInfoDTO:{"id":7,"mobile":"17728718188","resources":{},"tenantAuthorizationInfoMap":{13:{"rolePrivilegeMap":{"r_001":["sj_m_console","sj_m_app_list","sj_m_transaction_list","sj_m_account_check","sj_m_payment","sj_m_account_list","sj_m_enterprise_auth","sj_m_store_list","sj_m_staff_list","sj_o_member_list","sj_o_entreprise_list","sj_o_audit","sj_o_service_type","sj_o_account_check","sj_o_admin_list","sj_o_role_list","sj_m_app_create","sj_m_payment_set","sj_m_store_create","sj_m_store_query","sj_m_staff_create","sj_m_staff_query","sj_o_member_query","sj_o_enterprise_query","sj_o_enterprise_create","sj_o_service_create","sj_o_service_query","sj_o_admin_create","sj_o_admin_query","sj_o_role_create","sj_o_role_query","sj_o_role_save","sj_m_auth_apply","sj_m_console_renew","sj_m_console_upgrade","sj_m_app_save","sj_m_app_modify","sj_m_payparam_save","sj_m_pay_set","sj_m_pay_save","sj_m_c2b_qrcode","sj_m_b2c_order","sj_m_h5_view","sj_m_bundle_buy","sj_m_enterprise_info_submit","sj_m_enterprise_info_cancel","sj_o_enterprise_auth_pass","sj_o_enterprise_auth_rejection","sj_m_store_edit","sj_m_staff_edit","sj_o_admin_edit","sj_o_role_edit","sj_m_store_save","sj_m_store_del","sj_m_staff_save"],"r_002":["sj_m_transaction_list","sj_m_account_check"]}}},"tenants":[{"bundleCode":"shanju-merchant","id":13,"name":"yyyy_542q9X","tenantTypeCode":"shanju‐merchant"}],"username":"yyyy"}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,340 DEBUG [DubboClientHandler-192.168.43.213:20880-thread-2][DecodeHandler.java:59] -  [DUBBO] Decode decodeable message org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,340 INFO [http-nio-56020-exec-1][IntegrationUserDetailsAuthenticationHandler.java:115] - @@@@@@@@@@@:{"accountNonExpired":true,"accountNonLocked":true,"authorities":[],"credentialsNonExpired":true,"enabled":true,"mobile":"17728718188","password":"123456","payload":{13:{"user_authorities":{"r_001":["sj_m_console","sj_m_app_list","sj_m_transaction_list","sj_m_account_check","sj_m_payment","sj_m_account_list","sj_m_enterprise_auth","sj_m_store_list","sj_m_staff_list","sj_o_member_list","sj_o_entreprise_list","sj_o_audit","sj_o_service_type","sj_o_account_check","sj_o_admin_list","sj_o_role_list","sj_m_app_create","sj_m_payment_set","sj_m_store_create","sj_m_store_query","sj_m_staff_create","sj_m_staff_query","sj_o_member_query","sj_o_enterprise_query","sj_o_enterprise_create","sj_o_service_create","sj_o_service_query","sj_o_admin_create","sj_o_admin_query","sj_o_role_create","sj_o_role_query","sj_o_role_save","sj_m_auth_apply","sj_m_console_renew","sj_m_console_upgrade","sj_m_app_save","sj_m_app_modify","sj_m_payparam_save","sj_m_pay_set","sj_m_pay_save","sj_m_c2b_qrcode","sj_m_b2c_order","sj_m_h5_view","sj_m_bundle_buy","sj_m_enterprise_info_submit","sj_m_enterprise_info_cancel","sj_o_enterprise_auth_pass","sj_o_enterprise_auth_rejection","sj_m_store_edit","sj_m_staff_edit","sj_o_admin_edit","sj_o_role_edit","sj_m_store_save","sj_m_store_del","sj_m_staff_save"],"r_002":["sj_m_transaction_list","sj_m_account_check"]}}},"tenant":{"tenantId":1},"username":"yyyy"}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} setAutoCommit false
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50005} query executed. 1.1127 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50005} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50005} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50005} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50005} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50006} query executed. 0.5882 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50006} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50006} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50006} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50006} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50007} query executed. 0.6601 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50007} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50007} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,356 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50007} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,372 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50007} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,372 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,550 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} commited
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,550 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} setAutoCommit true
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,550 DEBUG [http-nio-56020-exec-1][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:232] - Content-Length header = 2001
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 2001
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,895 DEBUG [http-nio-56010-exec-4][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [merchant-platform]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:137] - {conn-10005, pstmt-20001, rs-50008} query executed. 0.7433 millis. select client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove from oauth_client_details where client_id = ?
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50008} open
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50008} Header: [client_id, client_secret, resource_ids, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50008} Result: [merchant-platform, 123456, shanju-resource, read, client_credentials,password,authorization_code,implicit,refresh_token, null, ROLE_MERCHANT,ROLE_USER, 31536000, 259200, null, false]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:142] - {conn-10005, pstmt-20001, rs-50008} closed
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:16,911 DEBUG [http-nio-56020-exec-4][Log4j2Filter.java:132] - {conn-10005} pool-recycle
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,143 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,143 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,144 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,144 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,144 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,144 INFO [PollingServerListUpdater-1][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,144 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:147] - LoadBalancer [uaa-service_unknown]:  initialized
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,145 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,145 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,164 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,164 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,164 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,164 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:232] - Content-Length header = -1
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:17,165 DEBUG [http-nio-56010-exec-7][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:19,811 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:19,812 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:19,812 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:19,812 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:232] - Content-Length header = -1
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:19,814 DEBUG [http-nio-56010-exec-5][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:22,907 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:22,908 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:22,908 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:22,908 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:232] - Content-Length header = -1
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:22,909 DEBUG [http-nio-56010-exec-8][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:30,339 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,015 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,015 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,016 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,016 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,016 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,017 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,017 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:31,080 DEBUG [http-nio-56010-exec-6][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:33,248 DEBUG [http-nio-56010-exec-9][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:35,122 DEBUG [http-nio-56010-exec-10][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:35,236 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:36,129 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:37,695 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,263 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,263 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,263 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,263 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = 473
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,263 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 473
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,267 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,272 ERROR [http-nio-57010-exec-6][GlobalExceptionHandler.java:48] - 系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "0aasd": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "0aasd": not a valid Long value
+ at [Source: (PushbackInputStream); line: 1, column: 84] (through reference chain: com.shanjupay.merchant.vo.MerchantDetailVO["merchantNo"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:245)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:227)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:204)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:157)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:130)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:679)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String "0aasd": not a valid Long value
+ at [Source: (PushbackInputStream); line: 1, column: 84] (through reference chain: com.shanjupay.merchant.vo.MerchantDetailVO["merchantNo"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1549)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:911)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$LongDeserializer._parseLong(NumberDeserializers.java:584)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$LongDeserializer.deserialize(NumberDeserializers.java:557)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$LongDeserializer.deserialize(NumberDeserializers.java:535)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:127)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:369)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4013)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3084)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:239)
+	... 65 more
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:38,484 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:42,042 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:43,488 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:43,490 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:45,820 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,153 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,153 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,153 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,153 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,153 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,154 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:47,154 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:01:51,416 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,032 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,032 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,032 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,033 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,033 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,033 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:01,033 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:05,250 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:07,713 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:08,495 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:12,054 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,106 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,106 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,106 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,106 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 469
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,107 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 469
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,108 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,132 ERROR [DubboServerHandler-192.168.43.213:20890-thread-24][ExceptionFilter.java:86] -  [DUBBO] Got unchecked and undeclared exception which called by 192.168.43.213. service: com.shanjupay.merchant.api.MerchantService, method: applyMerchant, exception: com.shanjupay.common.domain.BusinessException: null, dubbo version: 2.7.3, current host: 192.168.43.213
+com.shanjupay.common.domain.BusinessException
+	at com.shanjupay.merchant.service.MerchantServiceImpl.applyMerchant(MerchantServiceImpl.java:160)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$56a6e2f1.applyMerchant(<generated>)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$fa4ad0c3.applyMerchant(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
+	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
+	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
+	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
+	at org.apache.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:56)
+	at org.apache.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:55)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:92)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:48)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:81)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:96)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:148)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:41)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:157)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:13,137 ERROR [http-nio-57010-exec-7][GlobalExceptionHandler.java:48] - 系统异常：
+java.lang.RuntimeException: com.shanjupay.common.domain.BusinessException
+com.shanjupay.common.domain.BusinessException
+	at com.shanjupay.merchant.service.MerchantServiceImpl.applyMerchant(MerchantServiceImpl.java:160)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$56a6e2f1.applyMerchant(<generated>)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$fa4ad0c3.applyMerchant(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
+	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
+	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
+	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
+	at org.apache.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:56)
+	at org.apache.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:55)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:92)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:48)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:81)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:96)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:148)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:41)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:157)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+	at org.apache.dubbo.rpc.filter.ExceptionFilter$ExceptionListener.onResponse(ExceptionFilter.java:105)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.lambda$invoke$0(ProtocolFilterWrapper.java:167)
+	at org.apache.dubbo.rpc.AsyncRpcResult.lambda$whenCompleteWithContext$0(AsyncRpcResult.java:155)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:792)
+	at java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2153)
+	at org.apache.dubbo.rpc.AsyncRpcResult.whenCompleteWithContext(AsyncRpcResult.java:153)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:159)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:15,838 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:16,365 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:16,366 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:17,157 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:30,349 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,034 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,034 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,035 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,035 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,035 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,035 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:31,035 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:229] - Path = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:232] - Content-Length header = 469
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 469
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,499 DEBUG [http-nio-56010-exec-3][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,514 ERROR [DubboServerHandler-192.168.43.213:20890-thread-26][ExceptionFilter.java:86] -  [DUBBO] Got unchecked and undeclared exception which called by 192.168.43.213. service: com.shanjupay.merchant.api.MerchantService, method: applyMerchant, exception: com.shanjupay.common.domain.BusinessException: null, dubbo version: 2.7.3, current host: 192.168.43.213
+com.shanjupay.common.domain.BusinessException
+	at com.shanjupay.merchant.service.MerchantServiceImpl.applyMerchant(MerchantServiceImpl.java:160)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$56a6e2f1.applyMerchant(<generated>)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$fa4ad0c3.applyMerchant(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
+	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
+	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
+	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
+	at org.apache.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:56)
+	at org.apache.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:55)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:92)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:48)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:81)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:96)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:148)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:41)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:157)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:32,515 ERROR [http-nio-57010-exec-8][GlobalExceptionHandler.java:48] - 系统异常：
+java.lang.RuntimeException: com.shanjupay.common.domain.BusinessException
+com.shanjupay.common.domain.BusinessException
+	at com.shanjupay.merchant.service.MerchantServiceImpl.applyMerchant(MerchantServiceImpl.java:160)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$56a6e2f1.applyMerchant(<generated>)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$FastClassBySpringCGLIB$$34e52a2e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:73)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.shanjupay.merchant.service.MerchantServiceImpl$$EnhancerBySpringCGLIB$$fa4ad0c3.applyMerchant(<generated>)
+	at org.apache.dubbo.common.bytecode.Wrapper2.invokeMethod(Wrapper2.java)
+	at org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:47)
+	at org.apache.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:84)
+	at org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker.invoke(DelegateProviderMetaDataInvoker.java:56)
+	at org.apache.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:56)
+	at org.apache.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:55)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:92)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:48)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:81)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:96)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:148)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:41)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:82)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:157)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+	at org.apache.dubbo.rpc.filter.ExceptionFilter$ExceptionListener.onResponse(ExceptionFilter.java:105)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.lambda$invoke$0(ProtocolFilterWrapper.java:167)
+	at org.apache.dubbo.rpc.AsyncRpcResult.lambda$whenCompleteWithContext$0(AsyncRpcResult.java:155)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:792)
+	at java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2153)
+	at org.apache.dubbo.rpc.AsyncRpcResult.whenCompleteWithContext(AsyncRpcResult.java:153)
+	at org.apache.dubbo.rpc.protocol.ProtocolFilterWrapper$CallbackRegistrationInvoker.invoke(ProtocolFilterWrapper.java:159)
+	at org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:152)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:102)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:193)
+	at org.apache.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+	at org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:35,255 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:36,139 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:37,721 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:38,507 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:42,063 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:43,498 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:43,499 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:45,843 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:47,166 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:02:51,423 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,037 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,037 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,037 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,037 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,037 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,038 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:01,038 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:05,263 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:07,733 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:08,525 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:12,080 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:15,859 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:16,373 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:16,373 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,168 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:17,169 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:30,366 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,039 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:31,041 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:35,276 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:36,140 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:37,741 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:38,542 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:42,087 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:43,514 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:43,515 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:45,878 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:47,174 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:03:51,431 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:01,049 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:05,290 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:07,756 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:08,559 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:12,100 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:15,892 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:16,383 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:16,385 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:17,189 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:30,366 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:31,060 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:35,304 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:36,156 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:37,763 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:38,571 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:42,116 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:43,533 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:43,534 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:45,896 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:47,202 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:04:51,433 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,062 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,062 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,063 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,063 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,063 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,063 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:01,063 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:05,321 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:07,770 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:08,583 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:12,134 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:15,900 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:16,389 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:16,390 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:17,225 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:30,380 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:31,072 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:35,327 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:36,164 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:37,786 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:38,592 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:42,160 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:43,535 DEBUG [NettyClientWorker-4-1][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xdc7d5148, L:/192.168.43.213:55485 - R:/192.168.43.213:20891]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:43,536 DEBUG [NettyClientWorker-4-1][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-1, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:45,919 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:47,235 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:05:51,438 DEBUG [NettyServerWorker-6-1][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:55817, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,084 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:01,085 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:05,335 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:07,791 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:08,605 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:12,173 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:15,937 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:16,392 DEBUG [NettyClientWorker-4-2][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x8221dec1, L:/192.168.43.213:55887 - R:/192.168.43.213:20880]], dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:16,394 DEBUG [NettyClientWorker-4-2][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-2, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:17,249 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.159.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:30,380 DEBUG [NettyServerWorker-6-2][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58767, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.159.1:57010]}
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:31,099 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.159.1:57010]
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:35,339 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:36,174 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.43.213:58845, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.43.213
+[${project.name}][${env:SERVER_PORT}] 2022-07-19 14:06:37,802 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:6) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
